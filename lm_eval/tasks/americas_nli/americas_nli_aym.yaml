@@ -1,0 +1,16 @@
+group: americas_nli
+task: americas_nli_aym
+dataset_path: nala-cub/americas_nli
+dataset_name: aym
+output_type: multiple_choice
+validation_split: validation
+test_split: test
+doc_to_text: "Does the premis entail the hypothesis?\n\nPremise: {{premise}}\n\nHypothesis: {{hypothesis}}\n\nAnswer options: Entailment, Neutral, Contradiction\n\nAnswer:"
+doc_to_target: label
+doc_to_choice: ["Entailment", "Neutral", "Contradiction"]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
