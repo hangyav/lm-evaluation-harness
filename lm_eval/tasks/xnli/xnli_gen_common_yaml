@@ -1,0 +1,23 @@
+# This file will be included in the generated language-specific task configs.
+# It doesn't have a yaml file extension as it is not meant to be imported directly
+# by the harness.
+group: xnli_gen
+task: null
+dataset_path: xnli
+dataset_name: null
+output_type: generate_until
+training_split: train
+validation_split: validation
+# source: Promptsource:GPT-3 style
+# manually set here because there's no prompt for the other languages
+doc_to_text: "{{premise}}\n\nQuestion: {{hypothesis}} True, False, or Neither?"
+doc_to_target: label
+doc_to_choice: ["True", "Neither", "False"]
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0

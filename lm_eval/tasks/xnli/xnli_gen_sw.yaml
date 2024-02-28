@@ -1,0 +1,3 @@
+task: xnli_gen_sw
+dataset_name: sw
+include: xnli_gen_common_yaml

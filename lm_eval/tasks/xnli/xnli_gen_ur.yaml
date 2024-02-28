@@ -1,0 +1,3 @@
+task: xnli_gen_ur
+dataset_name: ur
+include: xnli_gen_common_yaml

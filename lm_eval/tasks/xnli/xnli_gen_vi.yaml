@@ -1,0 +1,3 @@
+task: xnli_gen_vi
+dataset_name: vi
+include: xnli_gen_common_yaml

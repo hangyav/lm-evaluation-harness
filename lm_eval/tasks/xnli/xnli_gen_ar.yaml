@@ -1,0 +1,3 @@
+task: xnli_gen_ar
+dataset_name: ar
+include: xnli_gen_common_yaml
