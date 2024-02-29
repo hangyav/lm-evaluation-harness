@@ -1,0 +1,3 @@
+task: americas_nli_quy_generate
+dataset_name: quy
+include: template_generate_yaml

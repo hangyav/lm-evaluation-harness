@@ -1,0 +1,3 @@
+task: americas_nli_gn_generate
+dataset_name: gn
+include: template_generate_yaml

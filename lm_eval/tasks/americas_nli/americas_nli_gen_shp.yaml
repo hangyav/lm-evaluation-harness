@@ -1,0 +1,3 @@
+task: americas_nli_shp_generate
+dataset_name: shp
+include: template_generate_yaml

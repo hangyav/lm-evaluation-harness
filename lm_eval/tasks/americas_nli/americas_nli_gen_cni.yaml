@@ -1,0 +1,3 @@
+task: americas_nli_cni_generate
+dataset_name: cni
+include: template_generate_yaml

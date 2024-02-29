@@ -1,0 +1,3 @@
+task: americas_nli_tar_generate
+dataset_name: tar
+include: template_generate_yaml

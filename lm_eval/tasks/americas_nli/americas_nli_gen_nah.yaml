@@ -1,0 +1,3 @@
+task: americas_nli_nah_generate
+dataset_name: nah
+include: template_generate_yaml

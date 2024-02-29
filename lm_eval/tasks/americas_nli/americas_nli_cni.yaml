@@ -1,4 +1,4 @@
 group: americas_nli
-task: americas_nli_aym
-dataset_name: aym
+task: americas_nli_cni
+dataset_name: cni
 include: template_choice_yaml

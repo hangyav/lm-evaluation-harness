@@ -1,0 +1,3 @@
+task: americas_nli_bzd_generate
+dataset_name: bzd
+include: template_generate_yaml
