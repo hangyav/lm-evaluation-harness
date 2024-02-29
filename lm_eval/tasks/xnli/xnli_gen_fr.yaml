@@ -1,0 +1,3 @@
+task: xnli_gen_fr
+dataset_name: fr
+include: xnli_gen_common_yaml
